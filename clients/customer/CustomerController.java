@@ -44,6 +44,7 @@ public void dobuyOnline() {
 }
 
 public void doCatalogue() {
+	
 	model.doCatalogue() ;
 }
 

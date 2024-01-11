@@ -1,4 +1,4 @@
-package clients;
+	package clients;
 import clients.backDoor.BackDoorController;
 import clients.backDoor.BackDoorModel;
 import clients.backDoor.BackDoorView;
@@ -38,6 +38,7 @@ class Main
   // Change to false to reduce the number of duplicated clients
 
   private final static boolean many = false;        // Many clients? (Or minimal clients)
+  
   // Make musicPlayer a static member so it's accessible in the shutdown hook
   private static Music musicPlayer = new Music();
   

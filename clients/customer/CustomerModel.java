@@ -171,7 +171,7 @@ protected enum State { process, checked }
       JFrame catalogueFrame = new JFrame("CATALOGUE ");
       JPanel panel = new JPanel(new BorderLayout());
       
-      // Define catalogue items. Replace these items with actual product details.
+      // Define catalogue items. 
       String[][] catalogueItems = {
           {"0001", "40 inch LED HD tv", "269.00"},
           {"0002", "DAB RADIO", "29.99"},

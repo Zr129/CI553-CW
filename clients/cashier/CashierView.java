@@ -66,24 +66,24 @@ public class CashierView implements Observer
 
     Font f = new Font("Monospaced",Font.PLAIN,12);  // Font f is
 
-    theBtCheck.setBounds( 16, 25+60*0, 80, 40 );    // Check Button
+    theBtCheck.setBounds( 16, 25+60*0, 85, 40 );    // Check Button
     theBtCheck.addActionListener(                   // Call back code
       e -> cont.doCheck( theInput.getText() ) );
     cp.add( theBtCheck );                           //  Add to canvas
 
-    theBtBuy.setBounds( 16, 25+60*1, 80, 40 );      // Buy button 
+    theBtBuy.setBounds( 16, 25+60*1, 85, 40 );      // Buy button 
     theBtBuy.addActionListener(                     // Call back code
       e -> cont.doBuy() );
     cp.add( theBtBuy );                             //  Add to canvas
     
     
-    theBtRemove.setBounds( 16, 25+60*2, 80, 40 );      // Clear button 
+    theBtRemove.setBounds( 16, 25+60*2, 85, 40 );      // Clear button 
     theBtRemove.addActionListener(                     // Call back code
       e -> cont.doRemove(theInput.getText()) );
     cp.add( theBtRemove );                             //  Add to canvas
     
     
-    theBtBought.setBounds( 16, 25+60*3, 80, 40 );   // Bought Button
+    theBtBought.setBounds( 16, 25+60*3, 85, 40 );   // Bought Button
     theBtBought.addActionListener(                  // Call back code
       e -> cont.doBought() );
     cp.add( theBtBought );                          //  Add to canvas

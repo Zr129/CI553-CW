@@ -66,7 +66,7 @@ public class CollectView implements Observer
     
     theBtReceipt.setBounds( 16, 25+60*1, 80, 40 );  // Receipt Button   
 	theBtReceipt.addActionListener(                 // Call back code
-      e -> { // Obtain the order number. This is an example; modify as needed for your application.
+      e -> {                                     // Obtain the order number. 
      String orderNumberStr = theInput.getText(); // Assuming the order number is entered in theInput
       int orderNumber = Integer.parseInt(orderNumberStr); // Convert the string to an integer 
       cont.doReceipt(orderNumber);

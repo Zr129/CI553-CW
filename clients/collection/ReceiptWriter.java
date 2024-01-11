@@ -1,4 +1,4 @@
-package clients.cashier;
+package clients.collection;
 
 import java.io.IOException;
 import java.nio.file.Files;
